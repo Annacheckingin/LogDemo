@@ -1,33 +1,23 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="LogDemo:war exploded">
-    <output-path>$PROJECT_DIR$/target/mmall</output-path>
-    <properties id="maven-jee-properties">
-      <options>
-        <exploded>true</exploded>
-        <module>LogDemo</module>
-        <packaging>war</packaging>
-      </options>
-    </properties>
+    <output-path>$PROJECT_DIR$/out/artifacts/LogDemo_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="LogDemo" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-oxm:5.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-test:5.2.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.4" />
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.9.4" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-dbcp2:2.7.0" />
@@ -57,13 +47,12 @@
           <element id="library" level="project" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.18" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:2.0.2" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.5" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.5" />
         </element>
       </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/mmall/META-INF/MANIFEST.MF" />
-      </element>
       <element id="javaee-facet-resources" facet="LogDemo/web/Web" />
-      <element id="dir-copy" path="$PROJECT_DIR$/web" />
     </root>
   </artifact>
 </component>

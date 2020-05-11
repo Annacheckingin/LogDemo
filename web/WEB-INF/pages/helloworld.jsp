@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-你好！
+你好
 </body>
 </html>
