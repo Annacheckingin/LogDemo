@@ -128,7 +128,7 @@
         <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
-            <version>3.6</version>
+            <version>3.9.0</version>
         </dependency>
         <!-- FileUpload 使得在你可以在应用和Servlet中容易的加入强大和高性能的文件上传能力-->
         <dependency>
